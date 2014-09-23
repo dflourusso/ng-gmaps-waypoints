@@ -1,0 +1,27 @@
+{
+  "name": "ng-gmaps-waypoints",
+  "version": "0.1.0",
+  "license": "public",
+  "homepage": "http://www.paliari.com.br/",
+  "private": true,
+  "description": "Traçar rota utilizando AngularJs e Google Maps",
+  "keywords": [
+    "mapa",
+    "rota",
+    "angularjs",
+    "google-maps"
+  ],
+  "main": [
+    "./dist/ng-gmaps-waypoints.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "authors": [
+    "Daniel Fernando Lourusso <dflourusso@gmail.com>"
+  ]
+}
