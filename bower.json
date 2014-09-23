@@ -23,5 +23,8 @@
   ],
   "authors": [
     "Daniel Fernando Lourusso <dflourusso@gmail.com>"
-  ]
+  ],
+  "dependencies": {
+    "gmaps-waypoints": "dflourusso/gmaps-waypoints#~0.2.1"
+  }
 }
