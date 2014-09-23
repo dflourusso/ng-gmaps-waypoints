@@ -25,6 +25,7 @@
     "Daniel Fernando Lourusso <dflourusso@gmail.com>"
   ],
   "dependencies": {
-    "gmaps-waypoints": "dflourusso/gmaps-waypoints#~0.2.1"
+    "gmaps-waypoints": "dflourusso/gmaps-waypoints#~0.2.1",
+    "angular": "1.2.23"
   }
 }
