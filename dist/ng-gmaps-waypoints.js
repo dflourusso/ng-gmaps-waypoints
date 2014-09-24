@@ -13,7 +13,9 @@ angular.module('ng-gmaps-waypoints', []).directive('ngGmapsWaypoints', function(
       var gm;
       gm = new GmapsWaypoints(element[0], scope.options);
       gm.initialize();
-      return gm.calcRoute(scope.origin, scope.locations, scope.destination);
+      return scope.$watch('locations', function(locations) {
+        return gm.calcRoute(scope.origin, scope.locations, scope.destination);
+      });
     }
   };
 });
