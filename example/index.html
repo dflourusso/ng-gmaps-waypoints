@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>Google Maps</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/gmaps-waypoints/dist/gmaps-waypoints.js"></script>
+    <script src="dist/ng-gmaps-waypoints.js"></script>
+    <script src="example/ng-gmaps-waypoints-example.js"></script>
+</head>
+<body ng-app="custom-map" ng-controller="customMapExample">
+
+<div style="width: 800px; height: 800px;">
+    <div ng-gmaps-waypoints options="options" origin="origin" locations="locations" destination="destination"></div>
+</div>
+
+</body>
+</html>
