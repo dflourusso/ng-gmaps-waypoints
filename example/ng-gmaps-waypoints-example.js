@@ -14,8 +14,14 @@ angular.module('custom-map', ['ng-gmaps-waypoints']).controller('customMapExampl
       longitude: -51.9728931
     }, 'Av. Das Grevíleas', 'Av. Pintassilgo'
   ];
-  return $scope.destination = {
+  $scope.destination = {
     latitude: -23.426868,
     longitude: -51.9408231
+  };
+  $scope.changeRoutes = function() {
+    return $scope.locations = ["-23." + ($scope.randomic(468239, 368239)) + ", -51." + ($scope.randomic(9828931, 9028931)), "-23." + ($scope.randomic(468239, 368239)) + ", -51." + ($scope.randomic(9828931, 9028931)), "-23." + ($scope.randomic(468239, 368239)) + ", -51." + ($scope.randomic(9828931, 9028931)), "-23." + ($scope.randomic(468239, 368239)) + ", -51." + ($scope.randomic(9828931, 9028931))];
+  };
+  return $scope.randomic = function(max, min) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
   };
 });
