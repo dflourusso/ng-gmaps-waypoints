@@ -54,3 +54,4 @@ Exemplo:
     		]
 	 	$scope.destination = {latitude: -23.426868, longitude: -51.9408231}     
 	 	
+##### Veja um [exemplo](http://jsbin.com/xuyoda/2) em funcionamento.
