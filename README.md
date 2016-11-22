@@ -28,7 +28,7 @@ Inclua em seu index o **angular**, o **jquery** e os componentes **gmaps-waypoin
 
 	<div ng-gmaps-waypoints options="options" origin="origin" locations="locations" destination="destination"></div>
 	
-Obs: *É necessário que esta div esteja dentro de outro elemento com **height** e **width** especificados pois ela se ajusta a 100% do pai.*
+Obs: É necessário que esta div esteja dentro de outro elemento com **height** e **width** especificados pois ela se ajusta a 100% do pai.
 
 ##### 2 Crie seu módulo angular.
 
